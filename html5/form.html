@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beispiel HTML5 Forms</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Kurzbeschreibung" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+    
+<body>
+    <form action="form_action.php" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" value="default" />
+        </div>
+        <div>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="mail" name="user_mail" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message">Text goes in here</textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+</body>
+</html>
